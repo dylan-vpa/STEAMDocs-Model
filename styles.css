@@ -118,3 +118,17 @@ hr {
 #main div section span {
     color: crimson;
 }
+
+@media only screen and (max-width: 575px) {
+    header nav ul {
+        display: none;
+    }
+
+    main nav {
+        display: none;
+    }
+
+    #main {
+        margin: -25px;
+    }
+}
