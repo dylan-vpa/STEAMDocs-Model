@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+body {
+    position: absolute;
+    background-color: #252525;
+    color: #ffffff  ;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    background-color: #252525;
+}
+
+header h1 {
+    color: lightslategray;
+}
+
+header h1 span {
+    color: #ffffff;
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a, main nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+header nav ul li a:hover, header nav ul li a:focus, header nav ul li a:active, main nav ul li a:hover, main nav ul li a:focus, main nav ul li a:active {
+    color: #ffffff;
+    transition: ease 0.5s;
+    outline: none;
+}
+
+main {
+    margin: 100px 0 0 0;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    width: 100%;
+}
+
+main nav {
+    position: fixed;
+    left: 25px;
+    width: 15%;
+}
+
+#main {
+    margin: 0 0 0 20%;
+    position: relative;
+    width: 100%;
+}
+
+main nav div {
+    height: 50%;
+    font-size: small;
+}
+
+main nav div ul {
+    list-style: none;
+}
+
+main nav div ul li {
+    display: grid;
+}
+
+.navHtml h2, .navCss h2, .navHtml a, .navCss a {
+    padding: 5px 0 5px 15px;
+    border-left: 2px solid gray;
+    border-radius:  0 5px 5px 0;
+}
+
+.navHtml a:active, .navCss a:active, .navHtml a:hover, .navCss a:hover {
+    border-left: 2px solid lightslategray;   
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#main div {
+    padding: 15px;
+}
+
+#main div section h3 {
+    color: lightslategray;
+}
+
+hr {
+    border-color: lightslategray;
+}
+
+#main div section span {
+    color: crimson;
+}
